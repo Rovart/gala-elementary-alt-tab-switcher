@@ -4,6 +4,8 @@ This is an alternative to the stock libplank window switcher.
 This is a fork of "Gala Window Manager Alternative Window Switcher" project:
 <br>https://github.com/tom95/gala-alternate-alt-tab
 
+The current fork is modified to prevent crashes and also ordered in opening order instead of by recently open.
+
 <p align='center'>
     <img src='preview.png'>
 </p>
