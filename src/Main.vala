@@ -158,6 +158,13 @@ namespace Gala.Plugins.ElementaryAltTab
 			var settings = Settings.get_default ();
 
 			var windows = display.get_tab_list (TabList.NORMAL, workspace);
+			windows.sort((a, b) => {
+					ulong anum = (ulong) a.get_xwindow();
+					int anumi = (int) anum;
+					ulong bnum = (ulong) b.get_xwindow();
+					int bnumi = (int) bnum;
+		    	return anumi - bnumi;
+			});
 			var current_window = display.get_tab_current (TabList.NORMAL, workspace);
 
 			container.width = -1;
