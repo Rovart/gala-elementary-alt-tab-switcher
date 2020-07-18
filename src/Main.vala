@@ -520,8 +520,8 @@ namespace Gala.Plugins.ElementaryAltTab
 			if (initial)
 				indicator.restore_easing_state ();
 
-			if (settings.caption_visible)
-				update_caption_text (initial);
+			//if (settings.caption_visible)
+				//update_caption_text (initial);
 		}
 
 		private void close_window ()
