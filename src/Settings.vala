@@ -44,7 +44,7 @@ namespace Gala.Plugins.ElementaryAltTab
         public string indicator_stroke_color { get; set; default = "#FFFFFF7F"; }
         public int indicator_border { get; set; default = 4; }
 
-        public bool caption_visible { get; set; default = true; }
+        public bool caption_visible { get; set; default = false; }
         public string caption_background_color { get; set; default = "#00000090"; }
         public int caption_round_radius { get; set; default = 12; }
         public int caption_stroke_width { get; set; default = 0; }
